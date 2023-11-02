@@ -1,5 +1,15 @@
+import DetailComponent from "./component/DetailComponent";
+import Header from "./component/Header";
+import SwitchAndScheduledComponents from "./component/activate/SwitchAndScheduledComponents";
+
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <Header />
+      <DetailComponent title={"Detail"} detail={"100"} />
+      <SwitchAndScheduledComponents />
+    </>
+  );
 }
 
 export default App;
